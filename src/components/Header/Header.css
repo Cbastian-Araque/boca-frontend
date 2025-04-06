@@ -1,0 +1,33 @@
+.header{
+  margin: 1rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: var(--sombra-xl) var(--color-sombra);
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary);
+
+  img{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+  }
+
+  .info-user{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.4rem;
+
+    p{
+      strong{
+        font-family: boca_bold;
+      }
+    }
+
+    img{
+      border: 1px solid var(--color-border);
+    }
+  }
+}
