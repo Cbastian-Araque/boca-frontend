@@ -21,6 +21,8 @@
   --color-primary: #4ac9f0;
   --color-secondary: #79e945;
   --color-texto: #383a37;
+  --color-blanco: #FFF;
+  --color-negro: #000;
   --color-border: #2c6475;
   --color-fondo: rgb(226, 222, 222);
   --color-sombra: rgba(102, 100, 100, 0.308);
@@ -29,7 +31,7 @@
 
 html{
   font-size: 62.5%;
-  box-sizing: border-box;
+  box-sizing: content-box;
   
   *, ::after, ::before{
     margin: 0;
@@ -39,5 +41,9 @@ html{
   body{
     font-size: 1.6rem;
     font-family: boca_light;
+
+    a{
+      text-decoration: none;
+    }
   }
 }
