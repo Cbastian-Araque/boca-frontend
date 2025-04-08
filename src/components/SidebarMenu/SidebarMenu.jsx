@@ -1,17 +1,17 @@
 import './SidebarMenu.css';
 
-function SidebarMenu(){
+function SidebarMenu({list}){
   return(
     <>
     <aside>
       <h3>Boca Menu</h3>
       <nav>
         <ul>
-          <li><a href="#">elemento 1</a></li>
-          <li><a href="#">elemento 2</a></li>
-          <li><a href="#">elemento 3</a></li>
-          <li><a href="#">elemento 4</a></li>
-          <li><a href="#">elemento 5</a></li>
+          {list.map((item,index) => (
+            <li key={index}>
+              <a href={item.href}>{item.label}</a>
+            </li>
+          ))}
         </ul>
       </nav>
     </aside>
