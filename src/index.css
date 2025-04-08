@@ -20,11 +20,13 @@
 :root {
   --color-primary: #4ac9f0;
   --color-secondary: #79e945;
+  --color-third: #a60311;
   --color-texto: #383a37;
   --color-blanco: #FFF;
   --color-negro: #000;
   --color-border: #2c6475;
-  --color-fondo: rgb(226, 222, 222);
+  --color-fondo: rgb(218, 215, 215);
+  --color-fondo2: rgba(248, 240, 240, 0.89);
   --color-sombra: rgba(102, 100, 100, 0.308);
   --sombra-xl: 4px 3px 9px 1px;
 }
