@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Contenedor común para todas las páginas de autenticación */
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Estilos comunes del formulario */
+  .auth-form {
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .auth-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Grupos de campos */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Botón */
+  /* todo: puede moleculizarse */
+  .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Enlaces de navegación interna */
+  .auth-links {
+    margin-top: 15px;
+  }
+  
+  .auth-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 5px;
+  }
+  
+  .auth-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries para una correcta visualización en dispositivos móviles */
+  @media (max-width: 480px) {
+    .auth-form {
+      padding: 20px;
+    }
+  
+    .btn {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .auth-links a {
+      font-size: 13px;
+    }
+  }
+  
