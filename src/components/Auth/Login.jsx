@@ -8,7 +8,6 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Email:', email, 'Password:', password);
     if (!!email &&  !!password) {
         localStorage.setItem('Token-data','Inicio de sesion')
         setTimeout(() => {

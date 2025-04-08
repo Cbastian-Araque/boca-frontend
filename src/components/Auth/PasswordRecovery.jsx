@@ -7,7 +7,6 @@ export default function PasswordRecovery() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Email para recuperación:', email);
     alert('Se ha enviado un enlace de recuperación a tu email.');
   };
 

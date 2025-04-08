@@ -15,7 +15,6 @@ export default function PasswordRecovery() {
       alert("Las contraseñas no coinciden");
       return;
     }
-    console.log('Nombre:', name, 'Email:', email, 'Contraseña:', password);
     navigate('/login');
   };
 
