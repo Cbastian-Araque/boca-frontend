@@ -1,22 +1,18 @@
-import { useState } from 'react'
+import React, { Suspense } from 'react';
+import { BrowserRouter as Router} from 'react-router-dom';
 import './App.css'
-import HeaderMain from './components/Header/Header'
-import SidebarMenu from './components/SidebarMenu/SidebarMenu'
+import IndexRoot from './routers';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <HeaderMain />
-      <main className='main-content'>
-        <SidebarMenu />
-        <section>
-          <h2>Tabla de información</h2>
-        </section>
-      </main>
-    </>
-  )
+    <Router>
+      <div className="App">
+        <Suspense fallback={<div>Cargando...</div>}>
+          <IndexRoot /> 
+        </Suspense>
+      </div>
+    </Router>
+    )
 }
 
 export default App
