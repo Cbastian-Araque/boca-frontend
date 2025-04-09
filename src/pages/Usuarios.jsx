@@ -7,7 +7,7 @@ function Usuarios() {
 
       <div className={styles.container_page}>
         <form className={styles.form_search}>
-          <input type="text" placeholder='Búscar usuario' />
+          <input type="text" placeholder='Buscar usuario' />
           <button type='submit'>Buscar</button>
         </form>
 

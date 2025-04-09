@@ -1,19 +1,21 @@
+@import 'tailwindcss';
+
 @font-face {
-  font-family: "boca_bold";   /*Can be any text*/
-  src: local("Helvetica"),
-    url("./assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-family: 'boca_bold'; /*Can be any text*/
+  src: local('Helvetica'),
+    url('./assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
-  font-family: "boca_regular";   /*Can be any text*/
-  src: local("Helvetica"),
-    url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-family: 'boca_regular'; /*Can be any text*/
+  src: local('Helvetica'),
+    url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
-  font-family: "boca_light";   /*Can be any text*/
-  src: local("Helvetica"),
-    url("./assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-family: 'boca_light'; /*Can be any text*/
+  src: local('Helvetica'),
+    url('./assets/fonts/Poppins/Poppins-Light.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -22,29 +24,39 @@
   --color-secondary: #79e945;
   --color-third: #a60311;
   --color-texto: #383a37;
-  --color-blanco: #FFF;
+  --color-blanco: #fff;
   --color-negro: #000;
   --color-border: #2c6475;
-  --color-fondo: rgb(218, 215, 215);
+  --bg-gradient-main: radial-gradient(
+    circle,
+    #bbefff,
+    #d0efff,
+    #e2efff,
+    #eff1fa,
+    #f5f5f5
+  );
+  --color-fondo: #f5f5f5;
   --color-fondo2: rgba(248, 240, 240, 0.89);
   --color-sombra: rgba(102, 100, 100, 0.308);
   --sombra-xl: 4px 3px 9px 1px;
 }
 
-html{
+html {
   font-size: 62.5%;
   box-sizing: content-box;
-  
-  *, ::after, ::before{
+
+  *,
+  ::after,
+  ::before {
     margin: 0;
     padding: 0;
   }
-  
-  body{
+
+  body {
     font-size: 1.6rem;
     font-family: boca_light;
 
-    a{
+    a {
       text-decoration: none;
     }
   }
