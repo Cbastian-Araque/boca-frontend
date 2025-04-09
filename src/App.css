@@ -1,12 +1,12 @@
-body{
-  background-color: var(--color-fondo);
+body {
+  background-image: var(--bg-gradient-main);
 
-  #root{
+  #root {
     display: flex;
     flex-direction: column;
   }
 
-  .main-content{
+  .main-content {
     flex: 1 1 auto;
     position: relative;
     display: flex;
@@ -16,7 +16,7 @@ body{
     min-height: 100dvh;
     margin-top: 5rem;
 
-    section{
+    section {
       flex-grow: 2;
       flex: 1 1 auto;
       padding: 2rem;
