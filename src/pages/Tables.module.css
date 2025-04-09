@@ -1,0 +1,54 @@
+
+.container_table_responsive{
+  overflow-x: auto;
+}
+.table{
+  min-width: 600px;
+  width: 100%;
+  border-collapse: separate;
+  border: 1px solid var(--color-fondo);
+
+  thead{
+    font-family: boca_bold;
+
+    td{
+      background-color: var(--color-fondo);
+      text-align: center;
+    }
+  }
+  
+  tbody{
+    tr{
+      &:nth-child(odd){
+        background-color: var(--color-fondo2);
+      }
+
+      td{  
+        padding: 1rem 2rem;
+        text-align: center;
+      }
+
+      .td_actions{
+        display: flex;
+        justify-content: center;
+        gap: .4rem;
+
+        button{
+          border: none;
+          padding: 1.2rem 2rem;
+          font-size: 1.2rem;
+          cursor: pointer;
+          color: var(--color-blanco);
+          
+          &.btn_edit{
+            color: var(--color-negro);
+            background-color: var(--color-primary);
+          }
+          &.btn_delete{
+            background-color: var(--color-third);
+          }
+        }
+      }
+    }
+  }
+}
