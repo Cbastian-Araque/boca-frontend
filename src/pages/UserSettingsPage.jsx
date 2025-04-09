@@ -19,7 +19,8 @@ export default function UserSettingsPage() {
                     id="username"
                     name="username"
                     type="text"
-                    className="block min-w-0 grow py-1.5 pr-3 pl-1 text-gray-900 placeholder:text-gray-400 focus:outline-none"
+                    placeholder="Nombre de usuario"
+                    className="block min-w-0 grow pr-3 pl-1 text-gray-900 placeholder:text-gray-400 focus:outline-none py-[20px] px-[50px]"
                   />
                 </div>
               </div>
