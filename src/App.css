@@ -24,3 +24,22 @@ body {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+
+  .main-content section {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .main-content aside,
+  .main-content nav {
+    width: 100%;
+  }
+}

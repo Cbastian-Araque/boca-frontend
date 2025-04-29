@@ -2,10 +2,10 @@ import React, { lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 // Rutas
-import Usuarios from '../pages/Usuarios'
-import UserSettingsPage from '../pages/UserSettingsPage'
-import PagePuntajes from '../pages/Puntajes'
-import LenguajesPopulares from '../pages/LenguajesPopulares'
+const Usuarios = lazy(() => import('../pages/Usuarios'))
+const UserSettingsPage = lazy(() => import('../pages/UserSettingsPage'))
+const PagePuntajes = lazy(() => import('../pages/Puntajes'))
+const LenguajesPopulares = lazy(() => import( '../pages/LenguajesPopulares'))
 const Home = lazy(() => import('../components/Home/Home'))
 
 const RoutersIn = () => {
