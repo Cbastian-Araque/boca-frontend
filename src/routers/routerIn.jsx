@@ -13,7 +13,7 @@ const RoutersIn = () => {
     <Routes>
       <Route path="*" element={<Home />} />
       <Route path="/usuarios" element={<Usuarios />} />
-      <Route path="/user-settings" element={<UserSettingsPage />} />
+      <Route path="/ajustes-usuario" element={<UserSettingsPage />} />
       <Route path="/puntajes" element={<PagePuntajes />} />
       <Route path="/lenguajes-populares" element={<LenguajesPopulares />} />
     </Routes>

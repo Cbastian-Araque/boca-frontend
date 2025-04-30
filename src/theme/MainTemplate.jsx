@@ -5,7 +5,7 @@ import SidebarMenu from '../components/SidebarMenu/SidebarMenu'
 const MainTemplate = ({ children = null }) => {
   const enlaces = [
     { href: '*', label: 'Inicio' },
-    { href: '/user-settings', label: 'Ajustes de usuario' },
+    { href: '/ajustes-usuario', label: 'Ajustes de usuario' },
     { href: '/usuarios', label: 'Usuarios' },
     { href: '/lenguajes-populares', label: 'Lenguajes populares' },
     { href: '/puntajes', label: 'Puntajes' },
