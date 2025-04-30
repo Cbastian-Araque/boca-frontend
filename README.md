@@ -25,8 +25,12 @@ Abrir la línea de comandos (terminal) y ejecutar lo siguiente:
 ## Iniciar sesión
 Diligenciar los datos del formulario con usuario y contraseña genérico. ejemplo Usuario: _usuario@test.co_ Contraseña: _root_
 
+1. En dado caso de que el usuario no tenga una cuenta, puede registrarse dando clic en el enlace [¿No tienes cuenta? Regístrate](https://palevioletred-squid-278158.hostingersite.com/register)
+
+1. O si ya tiene una cuenta pero no recuerda la contraseña, puede [Recuperar la contraseña](https://palevioletred-squid-278158.hostingersite.com/password-recovery)
+
 ## Navegación
 Encontrará un menú de navegación lateral para que se desplace por cada página.
 
-Por ejemplo, la página de usuarios permite visualizar el listado de usuarios preconfigurados y realizar acciones como editar o eliminar algún registro.
+* Por ejemplo, la página de usuarios permite visualizar el listado de usuarios preconfigurados y realizar acciones como editar o eliminar algún registro.
 
