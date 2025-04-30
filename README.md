@@ -19,3 +19,14 @@ Abrir la línea de comandos (terminal) y ejecutar lo siguiente:
 1. Ir a la carpeta que contenga el código del proyecto `cd nombre-carpeta` esto "abre" la carpeta que contiene los archivos clonados en el paso 1.
 1. `npm install` Esto instala todas las dependencias de desarrollo
 1. `npm run dev` Se ejecuta el proyecto de manera local y ejecuta un servidor local ejemplo localhost:5173
+
+# Guía de uso para la app
+
+## Iniciar sesión
+Diligenciar los datos del formulario con usuario y contraseña genérico. ejemplo Usuario: _usuario@test.co_ Contraseña: _root_
+
+## Navegación
+Encontrará un menú de navegación lateral para que se desplace por cada página.
+
+Por ejemplo, la página de usuarios permite visualizar el listado de usuarios preconfigurados y realizar acciones como editar o eliminar algún registro.
+
